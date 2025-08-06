@@ -4,7 +4,7 @@ import { FiArrowLeft } from "react-icons/fi";
 export default function ChatHeader({chatTitle}) {
   return (
     <div
-    className='grid grid-cols-[max-content_1fr] items-center border-2 border-solid'
+    className='grid grid-cols-[max-content_1fr] items-center border-2 border-solid h-min'
     >
       <Button
       className='p-[1rem]'

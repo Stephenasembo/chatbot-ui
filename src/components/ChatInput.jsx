@@ -5,7 +5,7 @@ import Button from './generic/Button'
 export default function ChatInput() {
   return (
     <div
-    className='box-border p-[0.25rem] border-2 border-solid flex gap-[0.25rem]'
+    className='box-border p-[0.25rem] border-2 border-solid flex gap-[0.25rem] h-min self-end'
     >
       <Input
       className='border-1 border-solid h-max p-[0.5rem] text-lg rounded-2xl w-full'
@@ -13,7 +13,7 @@ export default function ChatInput() {
       name='userText'
       />
       <Button
-      className='border-2 p-[0.5rem] rounded-full w-max'
+      className='border-2 p-[0.5rem] rounded-full w-max h-min'
       >
         <LuSendHorizontal
         className='w-[1.5rem] h-[1.5rem]'
